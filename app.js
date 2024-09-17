@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const sequelize = require('./config/database');
+const sequelize = require('./config/database.js');
 
-const genderRoutes = require('./routes/genderRoutes');
-const contactRoutes = require('./routes/contactRoutes');
+const genderRoutes = require('./routes/genderRoutes.js');
+const contactRoutes = require('./routes/contactRoutes.js');
 
 const app = express();
 

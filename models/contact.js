@@ -1,6 +1,6 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
-const Gender = require('./gender');
+const sequelize = require('../config/database.js');
+const Gender = require('./gender.js');
 
 const Contact = sequelize.define('Contact', {
     id: {

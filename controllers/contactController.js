@@ -1,5 +1,5 @@
-const Contact = require('../models/contact');
-const Gender = require('../models/gender');
+const Contact = require('../models/contact.js');
+const Gender = require('../models/gender.js');
 
 exports.getAllContacts = async (req, res) => {
     try {
