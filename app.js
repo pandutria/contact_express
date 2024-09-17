@@ -7,6 +7,7 @@ const contactRoutes = require('./routes/contactRoutes.js');
 
 const app = express();
 
+app.use(express.json())
 app.use(bodyParser.json());
 
 app.use('/genders', genderRoutes);
